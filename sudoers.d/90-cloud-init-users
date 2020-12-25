@@ -1,0 +1,4 @@
+# Created by cloud-init v. 20.1-10-g71af48df-0ubuntu5 on Tue, 22 Dec 2020 15:31:03 +0000
+
+# User rules for ketzenkrad
+ketzenkrad ALL=(ALL) NOPASSWD:ALL
