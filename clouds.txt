@@ -1,0 +1,674 @@
+    1  apt install net-tools
+    2  apt update
+    3  apt upgrade
+    4  netstat
+    5  ss -tpln
+    6  ifconfig
+    7  ip a
+    8  cd ../..
+    9  ;;
+   10  ll
+   11  cd ../..
+   12  ls
+   13  ssh-keygen
+   14  apt install mc
+   15  mc
+   16  ls
+   17  cd etc/
+   18  cd ssh/
+   19  ls
+   20  ll
+   21  cd ../..
+   22  ll
+   23  cd root
+   24  ll
+   25  cd .ssh/
+   26  ll
+   27  ssh-copy-id root@178.154.224.73
+   28  ssh-keygen
+   29  ssh-copy-id root@178.154.224.73
+   30  passwd root
+   31  ssh-copy-id root@178.154.224.73
+   32  ll
+   33  ssh-keygen
+   34  ll
+   35  passwd root
+   36  ssh-copy-id root@178.154.224.73
+   37  ssh "'root@178.154.224.73'"
+   38  ssh root@178.154.224.73
+   39  exit
+   40  cd ../..
+   41  ll
+   42  cd home/
+   43  ll
+   44  cd base/
+   45  apt install default-jdk -y
+   46  java -version
+   47  apt install tomcat9
+   48  apt install maven -y
+   49  git --v
+   50  apt install git
+   51  pwd
+   52  cd /home/user/
+   53  ll
+   54  git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git -y
+   55  git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
+   56  mc
+   57  ll
+   58  cd boxfuse-sample-java-war-hello/
+   59  ll
+   60  mvn package -y
+   61  mvn package
+   62  mc
+   63  cd ../..
+   64  ll
+   65  cd ../..
+   66  ll
+   67  cd lib
+   68  ll
+   69  cd ../..
+   70  ll
+   71  cd var/
+   72  ll
+   73  cd lib/
+   74  ll
+   75  cd tomcat9/
+   76  ls
+   77  ll
+   78  mc
+   79  cd ../..
+   80  ll
+   81  cd home/
+   82  ll
+   83  cd base/
+   84  ll
+   85  apt install docker -y
+   86  ll
+   87  git clone https://github.com/tongueroo/demo-java.git
+   88  ll
+   89  cd demo-java/
+   90  mc
+   91  ll
+   92  mvn package
+   93  ls
+   94  ll
+   95  cd src/
+   96  ll
+   97  cd main/
+   98  ll
+   99  cd ../..
+  100  mc
+  101  exit
+  102  ssh root@178.154.252.193 -y
+  103  mc
+  104  exit
+  105  git clone https://github.com/contentful/the-example-app.java.git
+  106  ll
+  107  mc
+  108  ll
+  109  cd the-example-app.java/
+  110  ll
+  111  mvn package
+  112  pwd
+  113  cd ../..
+  114  pwd
+  115  shutdown -h now
+  116  cd ../..
+  117  ll
+  118  cd home/
+  119  ll
+  120  cd base/
+  121  ll
+  122  git clone https://github.com/jenkinsci/jenkins.git
+  123  mc
+  124  ll
+  125  cd jenkins/
+  126  mvn package
+  127  mc
+  128  shutdown -h now
+  129  postgres -version
+  130  postgresql -v
+  131  postgres --version
+  132  apt update
+  133  apt upgrade
+  134  apt install postgresql postgresql-contrib -y
+  135  postgres -V
+  136  apt install net-tools -y
+  137  netstat -tupln
+  138  cd ../..
+  139  ;;
+  140  ll
+  141  cd home/
+  142  kk
+  143  ll
+  144  cd base/
+  145  su postgres
+  146  git clone https://github.com/pthom/northwind_psql.git
+  147  ll
+  148  cd northwind_psql/
+  149  ll
+  150  git --version
+  151  docker --version
+  152  apt install docker.io -y
+  153  docker --version
+  154  docker --v
+  155  clear
+  156  docker --version
+  157  docker run --detach --hostname gitlab.example.com --publish 443:443 --publish 80:80 --publish 23:22 --name gitlab --restart always --volume $GITLAB_HOME/config:/etc/gitlab --volume $GITLAB_HOME/logs:/var/log/gitlab --volume $GITLAB_HOME/data:/var/opt/gitlab gitlab/gitlab-ee:latest
+  158  docker run --detach --hostname gitlab.example.com --publish 443:443 --publish 80:80 --publish 23:22 --name gitlab --restart always --volume $GITLAB_HOME/config:/etc/gitlab --volume $GITLAB_HOME/logs:/var/log/gitlab --volume $GITLAB_HOME/data:/var/opt/gitlab gitlab/gitlab-ee:latest
+  159  docker ps
+  160  docker logs -f e36f1eb789d7
+  161  mc
+  162  CD ../..
+  163  cd ../..
+  164  ll
+  165  exit
+  166  docker ps
+  167  docker run -t build1954 .
+  168  docker ps
+  169  ll
+  170  exit
+  171  docker run --detach --hostname gitlab.example.com --publish 443:443 --publish 80:80 --publish 23:22 --name gitlab --restart always --volume $GITLAB_HOME/config:/etc/gitlab --volume $GITLAB_HOME/logs:/var/log/gitlab --volume $GITLAB_HOME/data:/var/opt/gitlab gitlab/gitlab-ee:latest
+  172  ssh-keygen
+  173  ll
+  174  nano gitlab_key.pub 
+  175  cat gitlab_key.pub 
+  176  docker --help
+  177  docker start --help
+  178  docker info
+  179  docker run -i -t ubuntu 20.04 /bin/bash
+  180  cd ../..
+  181  ll
+  182  docker run -i -t ubuntu 16.04 /bin/bash
+  183  cd bin
+  184  ll
+  185  docker run -i -t ubuntu 16.04 /bin/bash
+  186  cd ../..
+  187  clear
+  188  docker run -i -t ubuntu 16.04 /bin/bash
+  189  ll
+  190  cd home/
+  191  ll
+  192  cd base/
+  193  ll
+  194  nano .bashrc 
+  195  ll
+  196  ip a
+  197  nano .bashrc 
+  198  docker ps
+  199  docker ps -a
+  200  docker inspect e36f1eb789d7 
+  201  docker ps -a
+  202  ip a
+  203  docker network ls
+  204  nano Dockerfile
+  205  cat Dockerfile
+  206  nano Dockerfile
+  207  ll
+  208  > index.html
+  209  nano index.html 
+  210  docker build -t build1154 .
+  211  nano Dockerfile
+  212  docker ps
+  213  docker stop e36f1eb789d7
+  214  docker ps
+  215  docker build -t build1154 .
+  216  nano Dockerfile
+  217  docker build -t build1154 .
+  218  docker images
+  219  docker run -d -p 80:80 build1154
+  220  docker ps
+  221  docker stop 08f6898d5e60
+  222  docker ps
+  223  ll
+  224  nano index.html
+  225  docker run -d -p 80:80 build1154
+  226  docker ps
+  227  docker stop 5b259ce45be7
+  228  mkdir  java-docker-app  
+  229  ll
+  230  cd java-docker-app/
+  231  > Hello.java
+  232  ll
+  233  nano Hello.java 
+  234  ll
+  235  nano Hello.java 
+  236  дд
+  237  ll
+  238  > Dockerfile
+  239  nano Dockerfile 
+  240  cat Dockerfile 
+  241  docker build -t java-app .
+  242  docker run java-app  
+  243  cd ../..
+  244  cd base/
+  245  docker ps
+  246  ll
+  247  docker run -d -p 80:80 build1154
+  248  docker ps
+  249  docker image tag build1954 ketzenkrad/devops_tests:tagname
+  250  docker image tag build1954 ketzenkrad/devops_tests
+  251  docker ps
+  252  docker ps -a
+  253  docker login
+  254  docker image tag build1954 ketzenkrad/devops_tests
+  255  docker push ketzenkrad/devops_tests:tagname
+  256  ll
+  257  cat dockerfile
+  258  cat Dockerfile 
+  259  docker push ketzenkrad/devops_tests
+  260  docker ps
+  261  docker stop 283c87a8b2db
+  262  docker ps
+  263  docker push ketzenkrad/devops_tests
+  264  docker image tag build1954 ketzenkrad/devops_tests
+  265  docker run -d -p 80:80 build1154
+  266  docker image tag build1954 ketzenkrad/devops_tests
+  267  docker image tag build1954:latest ketzenkrad/devops_tests
+  268  docker image tag build1954 ketzenkrad/devops_tests
+  269  docker push ketzenkrad/devops_tests
+  270  docker pull ketzenkrad/devops_tests
+  271  shutdown -h now
+  272  docker ps -a
+  273  docker ps
+  274  exit
+  275  docker --version
+  276  cd ../..
+  277  ll
+  278  exit
+  279  ll
+  280  apt install yamllint -y
+  281  nano cloud.yml
+  282  yamllint cloud.yml
+  283  nano cloud.yml
+  284  yamllint cloud.yml
+  285  nano cloud.yml
+  286  yamllint cloud.yml
+  287  nano cloud.yml
+  288  curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  289  chmod +x /usr/local/bin/docker-compose
+  290  docker-compose --version
+  291  cd ../..
+  292  ll
+  293  cd home/
+  294  ll
+  295  nano docker-compose.yml
+  296  cd base/
+  297  ll
+  298  git clone https://github.com/UntestedFrom43/docker07.git
+  299  ll
+  300  cd docker07/
+  301  ll
+  302  cd ../..
+  303  cd base/
+  304  docker-compose.yml
+  305  > docker-compose.yml
+  306  nano docker-compose.yml 
+  307  exit
+  308  shutdown -h now
+  309  sudo wget https://github.com/bcicen/ctop/releases/download/v0.7.3/ctop-0.7.3-linux-amd64 -O /usr/local/bin/ctop
+  310  sudo chmod +x /usr/local/bin/ctop
+  311  ctop
+  312  docker ps
+  313  docker images
+  314  docker ps
+  315  docker images -a
+  316  docker run -it --name alpine node-alpine alpine sh
+  317  docker run -it --name node-alpine alpine sh
+  318  docker containers ls -a
+  319  docker container
+  320  docker container ls -a
+  321  docker commit node-alpine ketzenkrad/node-alpine:v0.0
+  322  docker images
+  323  docker login
+  324  docker push ketzenkrad/devops_tests
+  325  docker push ketzenkrad/node-alpine:v0.0
+  326  docker images -a
+  327  ll
+  328  mkdir 'Alpine Docker'
+  329  cd Alpine\ Docker/
+  330  > Dockerfile
+  331  nano Dockerfile 
+  332  cat Dockerfile 
+  333  docker -t /home/base/Alpine\ Docker/node_alpine:v0.1 .
+  334  docker build -t /home/base/Alpine\ Docker/node_alpine:v0.1 .
+  335  docker build -t ketzenkrad/node_alpine:v0.1 .
+  336  docker images -a
+  337  nano Dockerfile 
+  338  docker build -t ketzenkrad/node_alpine:v0.1 .
+  339  docker images -a
+  340  docker run -it --name node-alpine ketzenkrad/node_alpine:v0.1
+  341  docker rm node-alpine
+  342  docker run -it --name node-alpine ketzenkrad/node_alpine:v0.1
+  343  docker run -it -p 3000:8080 --name node-alpine ketzenkrad/node_alpine:v0.1
+  344  docker rm node-alpine
+  345  docker run -it -p 3000:8080 --name node-alpine ketzenkrad/node_alpine:v0.1
+  346  docker rm node-alpine
+  347  ll
+  348  > index.html
+  349  nano index.html 
+  350  docker rm node-alpine
+  351  docker run -it -p 3000:8080 --name node-alpine ketzenkrad/node_alpine:v0.1
+  352  docker images
+  353  docker push ketzenkrad/node_alpine:v0.1
+  354  ll
+  355  cd ../..
+  356  ;;
+  357  ll
+  358  cd base/
+  359  ll
+  360  cd Alpine\ Docker/
+  361  ll
+  362  nano Dockerfile_out
+  363  docker build -t ketzenkrad/yarn:v0.0.1 -f Dockerfile_out .
+  364  cat Dockerfile_out 
+  365  nano Dockerfile_out 
+  366  docker build -t ketzenkrad/yarn:v0.0.1 -f Dockerfile_out .
+  367  docker images
+  368  docker rm node-alpine
+  369  docker images
+  370  docker containers
+  371  docker container
+  372  docker images -a
+  373  docker container ls -a
+  374  docker container stop $(docker container ls -aq)
+  375  docker container ls -a
+  376  nano Dockerfile_inside
+  377  exit
+  378  ll
+  379  git clone https://github.com/UntestedFrom43/CloudTest.git
+  380  ll
+  381  cd CloudTest/
+  382  ll
+  383  git status
+  384  git checkout
+  385  git branch
+  386  cd ../..
+  387  git checkout dev_test
+  388  cd base/
+  389  cd CloudTest/
+  390  git branch
+  391  git checkout dev_test
+  392  git branch
+  393  git status
+  394  > untested.txt
+  395  git status
+  396  git add -A
+  397  git commit -m "Untested"
+  398  git status
+  399  git push origin/dev_test
+  400  git push dev_test
+  401  git push origin dev_test
+  402  git status
+  403  ll
+  404  git checkout -b dockerline
+  405  git status
+  406  git branch
+  407  > Dockerfile
+  408  git status
+  409  git push origin dockerline
+  410  git status
+  411  git add -A
+  412  git commit -m "Dockerline files"
+  413  git push origin dockerline
+  414  git status
+  415  git checkout --orphan docker_branch && git reset --hard
+  416  git status
+  417  git branch
+  418  git checkout docker_branch
+  419  git branch
+  420  > txt.txt
+  421  git status
+  422  git add -A
+  423  git commit -m "branch"
+  424  git push origin docker_branch
+  425  git branch
+  426  > Dockerfile_build
+  427  > Dockerfile_run
+  428  ll
+  429  git status
+  430  git add -A
+  431  git commit -m "Dockerfiles"
+  432  git push origin docker_branch
+  433  ls
+  434  docker images
+  435  docker version
+  436  docker run hello-world
+  437  docker container ls
+  438  docker images
+  439  docker container create --name build2204 centosadmin/utils:0.3
+  440  docker container start build2204
+  441  dcoker run alpine
+  442  docker run alpine
+  443  docker ps
+  444  docker images
+  445  docker ps
+  446  docker stop $(docker ps -a -q)
+  447  docker ps
+  448  docker container run -i -t --rm -p 80:80 centos:8
+  449  docker run --name centos_nginx -d -p 80:80 centosadmin/reloadable-nginx:1.13
+  450  docker ps
+  451  codker container ls
+  452  docker container ls -s
+  453  docker container inspect centos_nginx
+  454  docker container logs centos_nginx
+  455  docker ps -a
+  456  docker ps -a -s
+  457  docker ls
+  458  docker ps
+  459  docker stop $(docker ps -a -q)
+  460  docker ps
+  461  ll
+  462  nano Dockerfile_build 
+  463  docker image build -t newcloud/example:0.0 .
+  464  docker image build -t -f Dockerfile_build newcloud/example:0.0 .
+  465  docker image build -f Dockerfile_build -t newcloud/example:0.0 .
+  466  nano Dockerfile_build 
+  467  docker image build -f Dockerfile_build -t newcloud/example:0.0 .
+  468  docker image push ketzenkrad/example:0.0
+  469  git status
+  470  git add -A
+  471  git commit -m "alpine os-release"
+  472  git status
+  473  git branch
+  474  git push origin docker_branch
+  475  docker image pull ketzenkrad/example:0.0
+  476  docker login
+  477  docker image push ketzenkrad/example:0.0
+  478  docker images
+  479  docker image push newcloud/example:0.0
+  480  docker image push ketzenkrad/example:0.0
+  481  docker image push newcloud/example:0.0
+  482  docker tag image ketzenkrad/newcloud/example
+  483  docker tag image newcloud/example
+  484  docker tag image newcloud/example:0.0
+  485  docker tag image newcloud/example:0.0 ketzenkrad/newcloud/example:0.0
+  486  docker tag image newcloud/example:0.0 ketzenkrad
+  487  docker images
+  488  docker tag newcloud/example ketzenkrad/newcloud/example
+  489  docker tag newcloud/example:0.0 ketzenkrad/newcloud/example
+  490  docker push ketzenkrad/newcloud/example:0.0
+  491  docker push ketzenkrad/example:0.0
+  492  docker login
+  493  docker images
+  494  docker image push newcloud/example:0.0
+  495  docker search centosadmin
+  496  docker pull centosadmin/nginx-certbot
+  497  docker images
+  498  docker image history newcloud/example
+  499  docker image history newcloud/example:0.0
+  500  docker image inspect newcloud/example:0.0
+  501  docker image inspect newcloud/example:0.0 | less
+  502  docker images
+  503  docker system prume
+  504  docker system prune
+  505  docker containers
+  506  docker ps
+  507  docker images
+  508  docker system prune -a --volumes
+  509  ll
+  510  mkdir DockerBranch
+  511  ll
+  512  cd DockerBranch/
+  513  ll
+  514  > Dockerfile
+  515  ll
+  516  cd ../
+  517  ll
+  518  mkdir pythondocker
+  519  python3 -m venv pythondocker/
+  520  apt-get install python3-venv
+  521  python3 -m venv pythondocker/
+  522  source pythondocker/
+  523  ll
+  524  cd pythondocker/
+  525  ll
+  526  source bin/activate
+  527  ll
+  528  nano test.py
+  529  ll
+  530  python test.py 
+  531  nano
+  532  python test.py 
+  533  nano test.py
+  534  python test.py 
+  535  nano test.py
+  536  apt install python3-venv
+  537  python test.py 
+  538  nano test.py
+  539  pip install flask -y
+  540  pip install flask
+  541  python test.py 
+  542  pipe freeze > requirements.txt
+  543  pip freeze > requirements.txt
+  544  ll
+  545  cat requirements.txt 
+  546  docker images
+  547  ll
+  548  > Dockerfile
+  549  nano Dockerfile
+  550  docker build -t testapp:0.0.0 .
+  551  docker images
+  552  docker run -d -p 6000:5000 testapp:0.0.0
+  553  docker ps
+  554  curl 84.252.128.71:6000
+  555  docker images ls
+  556  docker images
+  557  ls
+  558  docker login
+  559  docker tag e606f1dd6090 ketzenkrad/newcloud:0.0.0
+  560  docker ps
+  561  docker images
+  562  docker push ketzenkrad/newcloud
+  563  service ssh status
+  564  cd ../..
+  565  l
+  566  ls
+  567  cd home/
+  568  cd base/
+  569  ll
+  570  ssh-keygen
+  571  ssh -i cloud second@130.193.36.69
+  572  ls
+  573  ssh 130.193.36.69
+  574  ssh -i cloud second@130.193.36.69
+  575  ssh-copy-id -i cloud second@130.193.36.69
+  576  service sshd restart
+  577  ssh status
+  578  ssh service status
+  579  ssh-copy-id cloud 130.193.36.69
+  580  ssh-copy-id cloud.pub 130.193.36.69
+  581  ssh-copy-id -i cloud.pub 130.193.36.69
+  582  ls
+  583  ssh-copy-id root@130.193.36.69
+  584  ssh-copy-id -i cloud root@130.193.36.69
+  585  ssh-keygen
+  586  ssh-copy-id -i cloud root@130.193.36.69
+  587  ssh-copy-id -i triangle second@130.193.36.69
+  588  ssh -i triangle second@130.193.36.69
+  589  ls
+  590  cat ~/home/base/triangle.pub | ssh root@130.193.36.69 'cat >> ~/.ssh/authorized_keys'
+  591  ssh -i triangle second@130.193.36.69
+  592  ssh-copy-id -i triangle second@130.193.36.69
+  593  cat triangle.pub 
+  594  service ssh restart
+  595  ssh -i triangle second@ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCXFuoVxdH/0HhLllW2Ife7HBtRUA0tI07bkQa1qrLpUtMvTdSxrwenxbRzAJ+YILWicGu0kkuuPjHPWjxVGIONMW4/G2RZDUtFxgmyGcrS4giDO0JLNRnA3ZcESFbTuO0zciNfLcR+lG7dxsRYovUsfq/l4qzWoFL704QmM/UREfZ06+4SJ/oIGLU9KqKUXjrPSW3EUQIS4y5UlgIzgxDkXU8VZiiPpR/GigrOkcsz53VSBzjxbqvESQdnKdWzna5EgVXJDvkUzD/r3oSE+lya8FtjIDK7zHtmZZ7dWVEmdkodBUXFZgPfCNUH9q0TG/aXYYkmMGDGAxpfnNOh/+fg9sS/BihQNQiWlZp+rjekGeZH+QdA9Eiv3sxPFFhIq9zLjX+Tpl5sOjJRakvkMtSOG29DF+w6iXow/Lz4SZGlPvflgTq4FDEhqvUs9svJ0C+AbOxlKceHdojjPX+uftFqlwxxwuqbQB5G0DAidCi/So2J9As5fApQlC5+09JsOfU= root@base-cloud
+  596  ssh -i triangle second@130.193.36.69
+  597  ssh -i triangle two@130.193.36.69
+  598  ssh -i triangle root@130.193.36.69
+  599  ssh -i triangle one@84.252.131.67
+  600  ll
+  601  cd ../..
+  602  ll
+  603  cd usr/
+  604  ll
+  605  cd local/
+  606  ll
+  607  cd ../..
+  608  ll
+  609  cd root/
+  610  ls
+  611  ll
+  612  cd .ssh/
+  613  ls
+  614  nano authorized_keys 
+  615  exit
+  616  service ssh restart
+  617  exit
+  618  ll
+  619  cd ../..
+  620  ll
+  621  cd root/
+  622  ls
+  623  ll
+  624  cd .ssh/
+  625  ls
+  626  nano authorized_keys 
+  627  exit
+  628  passwd base
+  629  exit
+  630  ll
+  631  cd ../..
+  632  ll
+  633  cd etc/
+  634  ll
+  635  cd ssh/
+  636  ls
+  637  nano sshd_config
+  638  sudo systemctl restart sshd
+  639  exit
+  640  ssh -i triangle one@84.252.130.172
+  641  ssh -i triangle two@84.252.129.95
+  642  ssh -i triangle second@84.252.129.95
+  643  ssh -i triangle second@84.252.129.95 -y
+  644  ssh -i triangle two@84.252.129.95 -y
+  645  ssh -i triangle second@130.193.36.69
+  646  ssh -i triangle two@84.252.129.95
+  647  ssh -i triangle second@84.252.129.95
+  648  ls
+  649  mkdir 'Untested files'
+  650  cd Untested\ files/
+  651  ll
+  652  ssh-keygen
+  653  exit
+  654  ssh -i triangle second@84.252.129.95
+  655  docker --version
+  656  ll
+  657  ssh -i triangle one@84.252.130.172
+  658  ssh -i triangle second@84.252.129.95
+  659  exit
+  660  docker --version
+  661  history > cloud_base_history.txt
+  662  nano cloud_base_history.txt 
+  663  exit
+  664  git status
+  665  ls
+  666  cd CloudTest/
+  667  ll
+  668  git status
+  669  git branch
+  670  cd ../..
+  671  ll
+  672  cd base/
+  673  ls
+  674  history > clouds.txt
